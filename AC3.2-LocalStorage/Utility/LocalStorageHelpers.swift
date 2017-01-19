@@ -17,7 +17,7 @@ protocol JSONConvertible {
 
 
 // MARK: - HELPERS
-public func stripMaskResizing(_ views: UIView...) {
+public func stripMaskResizing(_ views: UIView...) { //"..." multiple parameters of same type
   stripMaskResizing(views)
 }
 
